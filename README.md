@@ -16,7 +16,7 @@
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/evertoncruz/auth-api-ts.git
+git clone https://github.com/evertoncruz/user-auth-api.git
 ```
 
 2. Acesse a pasta do projeto:
