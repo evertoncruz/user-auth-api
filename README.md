@@ -41,7 +41,7 @@ npm install
 1. Crie um projeto no [Firebase Console](https://console.firebase.google.com)
 2. Vá em `Configurações do Projeto` > `Contas de Serviço` e clique em **"Gerar nova chave privada"**
 3. Salve o arquivo `firebase-service-account.json` na raiz do projeto (adicione ao `.gitignore`)
-4. Crie um arquivo `.env` na raiz com sua chave de API e demais variáveis:
+4. Crie um arquivo `.env` na raiz com sua chave de API e demais variáveis (adicione ao `.gitignore`):
 
 ```env
 PORT=3001
