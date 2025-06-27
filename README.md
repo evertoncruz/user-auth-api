@@ -10,8 +10,7 @@
 - Deve ter previamente instalado em seu ambiente o [Node.js](https://nodejs.org)
   > Utilizei para este projeto a versão `v20.10.0`
 
-<img src="./src/assets/terminal.png" width="300" alt="Imagem de terminal rodando o servidor"/>
-<img src="./src/assets/postman.png" width="300" alt="Imagem da ferramenta postman executando o recurso de listagem de usuários"/>
+<img src="./src/assets/terminal.png" width="300" alt="Imagem de terminal rodando o servidor"/> <img src="./src/assets/postman.png" width="300" alt="Imagem da ferramenta postman executando o recurso de listagem de usuários"/>
 
 ---
 
