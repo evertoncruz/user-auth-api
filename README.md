@@ -2,12 +2,16 @@
 
 ## Desafio elaborado a fim de ilustração para desenvolvimento de uma API RESTful com funcionalidades de autenticação de usuários utilizando como principais tecnologias `Node.js`, `Express`, `TypeScript`, `Firebase` e `Jest`
 
+
 ### ✅ Pré-requisitos
 
 - Deve ter previamente instalado em seu ambiente o [GIT](https://git-scm.com/downloads)
 
 - Deve ter previamente instalado em seu ambiente o [Node.js](https://nodejs.org)
   > Utilizei para este projeto a versão `v20.10.0`
+
+<img src="./assets/terminal.png" width="300" alt="Imagem de terminal rodando o servidor"/>
+<img src="./assets/postman.png" width="300" alt="Imagem da ferramenta postman executando o recurso de listagem de usuários"/>
 
 ---
 
@@ -22,7 +26,7 @@ git clone https://github.com/evertoncruz/user-auth-api.git
 2. Acesse a pasta do projeto:
 
 ```bash
-cd auth-api-ts
+cd user-auth-api
 ```
 
 3. Instale as dependências:
@@ -41,8 +45,19 @@ npm install
 4. Crie um arquivo `.env` na raiz com sua chave de API e demais variáveis:
 
 ```env
-FIREBASE_API_KEY=SUA_CHAVE_DE_API
-PORT=3000
+PORT=3001
+FIREBASE_TYPE=TIPO_DE_SERVIÇO
+FIREBASE_PROJECT_ID=ID_DO_PROJETO
+FIREBASE_PRIVATE_KEY_ID=SUA_CHAVE_DE_API
+FIREBASE_PRIVATE_KEY=CHAVE_PRIVADA
+FIREBASE_CLIENT_EMAIL=EMAIL_DO_CLIENTE
+FIREBASE_CLIENT_ID=ID_DO_CLIENTE
+FIREBASE_AUTH_URI=URI_PARA_AUTENTICAÇÃO
+FIREBASE_TOKEN_URI=URI_PARA_TOKEN
+FIREBASE_AUTH_PROVIDER_X509_CERT_URL=URL_PARA_CERTIFICADO
+FIREBASE_CLIENT_X509_CERT_URL=URL_PARA_CERTIFICADO_DE_CLIENTE
+FIREBASE_UNIVERSE_DOMAIN=DOMÍNIO
+
 ```
 
 ---
@@ -61,7 +76,7 @@ PORT=3000
 ### 📮 Rotas disponíveis
 
 - `POST /api/users/register` – Criação de usuário com e-mail e senha
-- `GET /api/users/list` – Listagem de usuários (Firebase Auth)
+<!-- - `GET /api/users/list` – Listagem de usuários (Firebase Auth) TODO -->
 - [em desenvolvimento] `POST /api/users/login` – Autenticação via REST (Firebase Identity Toolkit)
 
 ---
@@ -75,8 +90,9 @@ npm run dev
 ```
 
 O servidor será iniciado em:
+
 ```
-http://localhost:3000
+http://localhost:3001
 ```
 
 ---
