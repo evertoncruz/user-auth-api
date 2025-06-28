@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import admin from "../firebase/firebase.config";
 import { User } from "../models/user.model";
 
